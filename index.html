@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOR FLIPPER</title>
+    <style>
+        h1 {
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        #blue {
+            background-color: #3944bc;
+        }
+        #slate {
+            background-color: #757c88;
+        }
+        #cobalt {
+            background-color: #1338be;
+        }
+        #sky {
+            background-color: #63c5da;
+        }
+        #indigo {
+            background-color: #281e5d;
+        }
+        #cerulean {
+            background-color: #0492c2;
+        }
+        #berry {
+            background-color: #241571;
+        }
+        button {
+            align-items: center;
+            margin: 10px;
+            padding: 40px;
+            border-radius: 50px;
+            font-size: 20px;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #random {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>COLOR FLIPPER</h1>
+    <button id="blue" onclick="setColor('#3944bc')">Blue</button>
+    <button id="slate" onclick="setColor('#757c88')">Slate</button>
+    <button id="cobalt" onclick="setColor('#1338be')">Cobalt</button>
+    <button id="sky" onclick="setColor('#63c5da')">Sky</button>
+    <button id="indigo" onclick="setColor('#281e5d')">Indigo</button>
+    <button id="cerulean" onclick="setColor('#0492c2')">Cerulean</button>
+    <button id="berry" onclick="setColor('#241571')">Berry</button>
+    <button id="random" onclick="randomColor()">Random</button>
+    <script src="script.js"></script>
+</body>
+</html>
